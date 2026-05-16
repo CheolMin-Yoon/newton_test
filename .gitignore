@@ -1,0 +1,31 @@
+# 외부 의존성 클론 (env에 빌드/설치, 레포에 커밋 안 함 — Mythos.md A3/A5)
+/casadi/
+/casadi-on-gpu/
+/mujoco_menagerie/
+/mjlab/
+
+# 참조용 외부 레포 (자체 .git 보유)
+/LearningHumanoidArmMotion-RAL2025-Code/
+
+# 포팅 소스(레거시, 참조용 — dynamics/mpc/quadruped 로 재작성 대상)
+/mj_opt/
+
+# mjlab 학습용 샌드박스 (Mythos 정식 패키지 아님)
+#/cartpole_tutorial/
+
+# 구 shared/ 브리지는 폐기 — .so 는 mjlab_env site-packages 에 직접 설치(A8)
+
+# 로그 / 평가물
+/logs/
+/outputs/
+/wandb/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# 빌드 캐시
+build/
+*.so

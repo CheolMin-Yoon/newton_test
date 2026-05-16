@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /home/frlab/anaconda3/envs/mjlab_env/lib/python3.12/site-packages/mjlab/tasks/velocity -type f -name *.py -not -path *__pycache__*)",
+      "Bash(git checkout *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)"
+    ]
+  }
+}
